@@ -22,7 +22,7 @@
 
 ![image.png](https://i.loli.net/2021/03/07/pnqjELmPFdY1xiG.png)
 
-这是一个 Chrome 拓展。它能将 course.xmu.edu.cn 提交作业页面中基于 Flash 上传文件方案，替换为基于 fetch() 的上传方案，使你不需要更换浏览器就能上传和提交你的作业，同时在 Windows / Linux / macOS 下都可以直接提交；效果如图：
+这是一个 浏览器 拓展。它能将 course.xmu.edu.cn 提交作业页面中基于 Flash 上传文件方案，替换为基于 fetch() 的上传方案，使你不需要更换浏览器就能上传和提交你的作业，同时在 Windows / Linux / macOS 下都可以直接提交；效果如图：
 
 ![image.png](https://i.loli.net/2021/03/07/8LV9pwlncHQ7G4z.png)
 
@@ -32,7 +32,14 @@
 
 ## 使用方法
 
-因为我没办法交 5 刀的注册费，因此没有提交到网上应用商店。因此需要手动加载此插件：
+### 在FireFox上使用
+- 首先, 请确保您使用的是这个插件的Firefox分支，且您的浏览器是Firefox的最新版本
+- 使用Firefox浏览器在Release界面中下载最新的.xpi文件
+- 浏览器会自动弹出安装提示，按照界面提示安装即可
+- <del>对啊，FireFox好用开源还不要钱，为什么要给谷歌收割，无产阶级的劳动成果不比硅谷资本家的野心奶头乐要香？</del>
+
+### 在Chromiumn内核浏览器上使用
+因为我没办法交 5 刀的注册费，因此没有提交到Google网上应用商店。因此需要手动加载此插件：
 
 ### 在 Google Chrome 上使用
 
@@ -76,6 +83,8 @@
 
 ![image.png](https://i.loli.net/2021/03/08/a1BnomAVqwvtZRy.png)
 
+
+
 ## 原理
 
 这并不是通过什么神奇的操作实现的。这个 course 系统用的编辑器 CKEditor 使用了 Flash 来实现无刷新上传文件，这在当年也算是主流的操作。
@@ -93,3 +102,7 @@
 ## 兼容性
 
 理论上所有 Chromium 内核的浏览器都可以兼容。
+由CharlieJ107提供的Firefox插件已经在Firefox 86.0.1（64位）版本上进行测试。
+
+P.S：
+**如果你使用国内IP搜索Firefox或者直接登陆www.mozilla.org，通常会被劫持到<del>中 国 特 色</del> Firefox的网址（www.firefox.com.cn），这个网址不是Mozilla的官方页面，其提供的Firefox浏览器也不是官方原版的Firefox浏览器，本插件不能保证在特 色浏览器上正常运行。请各位用户注意甄别，慎防上当受骗。**

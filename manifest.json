@@ -1,14 +1,14 @@
 {
   "name": "厦大 course 文件上传助手",
   "description": "重写 course.xmu.edu.cn 提交作业页面中的上传逻辑，将基于 Flash 上传文件方案替换为基于 fetch() 的上传方案。",
+  "homepage_url":"https://github.com/charlieJ107/xmu-course-upload-helper-chrome-extension",
   "version": "1.0.3",
-  "manifest_version": 3,
+  "manifest_version": 2,
   "permissions": [
-      "webRequest"
-  ],
-  "host_permissions": [
+      "webRequest",
       "*://course.xmu.edu.cn/*"
   ],
+
   "icons": {
       "16": "icon.png",
       "48": "icon.png",
